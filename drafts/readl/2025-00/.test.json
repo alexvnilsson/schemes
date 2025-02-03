@@ -1,0 +1,9 @@
+{
+  "$schema": "./readl-config-scheme.json",
+  "db": {
+    "host": "localhost",
+    "port": 2044,
+    "database": "foo",
+    "user": "bar"
+  }
+}
