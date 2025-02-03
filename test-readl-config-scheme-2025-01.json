@@ -8,10 +8,12 @@
     "db": {
       "description": "Database configuration.",
       "type": "object",
-      "host": "string",
-      "port": "number",
-      "database": "string",
-      "user": "string"
+      "properties": {
+        "host": { "description": "Database server host.", "type": "string" },
+        "port": { "description": "Database server port.", "type": "" },
+        "database": { "description": "Database name.", "type": "string" },
+        "user": { "description": "Database user.", "type": "string" }
+      }
     }
   }
 }
