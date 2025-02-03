@@ -6,6 +6,8 @@
   "type": "object",
   "properties": {
     "db": {
+      "description": "Database configuration.",
+      "type": "object",
       "host": "string",
       "port": "number",
       "database": "string",
