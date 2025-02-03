@@ -3,10 +3,8 @@
   "$id": "https://github.com/alexvnilsson/schemes/test-readl-config-scheme-2025-01.json",
   "title": "ReadL Web Server Configuration File",
   "description": "A configuration file for the ReadL Web Server.",
-  "type": "object",
   "properties": {
     "db": {
-      "description": "Database configuration.",
       "type": "object",
       "properties": {
         "host": { "description": "Database server host.", "type": "string" },
