@@ -10,8 +10,10 @@
         "host": { "description": "Database server host.", "type": "string" },
         "port": { "description": "Database server port.", "type": "" },
         "database": { "description": "Database name.", "type": "string" },
-        "user": { "description": "Database user.", "type": "string" }
-      }
+        "user": { "description": "Database user.", "type": "string" },
+        "password": { "description": "Database user password (handle discreetly).", "type": "string" }
+      },
+      "required": [ "host", "database", "user" ] 
     }
   }
 }
