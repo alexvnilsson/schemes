@@ -8,7 +8,7 @@
       "type": "object",
       "properties": {
         "host": { "description": "Database server host.", "type": "string" },
-        "port": { "description": "Database server port.", "type": "" },
+        "port": { "description": "Database server port.", "type": "number" },
         "database": { "description": "Database name.", "type": "string" },
         "user": { "description": "Database user.", "type": "string" },
         "password": { "description": "Database user password (handle discreetly).", "type": "string" }
