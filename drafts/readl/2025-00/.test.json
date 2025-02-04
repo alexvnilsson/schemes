@@ -4,6 +4,10 @@
     "host": "localhost",
     "port": 2044,
     "database": "foo",
-    "user": "bar"
+    "user": "bar",
+    "password": "ss"
+  },
+  "logging": {
+    "dir": "/tmp"
   }
 }

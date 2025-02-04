@@ -14,6 +14,12 @@
         "password": { "description": "Database user password (handle discreetly).", "type": "string" }
       },
       "required": [ "host", "database", "user" ] 
+    },
+    "logging": {
+      "type": "object",
+      "properties": {
+        "dir": { "description": "Directory to where logs are written.", "type": "string" }
+      }
     }
   }
 }
